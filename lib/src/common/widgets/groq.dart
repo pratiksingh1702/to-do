@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../../features/todo/domain/models/todo.dart'; // Adjust your import path.
 
 class GroqService {
-  final String apiKey = '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';
+  final String apiKey = '';
   final String endpoint = 'https://api.groq.com/openai/v1/chat/completions';
 
   Future<String?> summarizeTodos(List<Todo> todos) async {
