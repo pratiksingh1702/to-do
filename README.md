@@ -105,7 +105,7 @@ This app isn't just about managing tasks — it also demonstrates integration wi
 
 ## Demo
 
-Insert gif or link to demo
+[click to get release](https://github.com/pratiksingh1702/to-do/releases/download/new/app-release.apk)
 
 
 ## 🛠️ Installation Guide
