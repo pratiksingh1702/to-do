@@ -21,40 +21,40 @@ A modern, feature-rich Todo application built with Flutter, showcasing best prac
 
 ### 🔐 Login & Register
 <div align="center">
-  <img src="screenshots/login.png" width="250"/>
-  <img src="screenshots/register.png" width="250"/>
+  <img src="screenshots/login.jpg" width="250"/>
+  <img src="screenshots/register.jpg" width="250"/>
 </div>
 
 ---
 
 ### 🏠 Home Page (Light & Dark Mode)
 <div align="center">
-  <img src="screenshots/home_light.png" width="250"/>
-  <img src="screenshots/home_dark.png" width="250"/>
+  <img src="screenshots/home_light.jpg" width="250"/>
+  <img src="screenshots/home_dark.jpg" width="250"/>
 </div>
 
 ---
 
 ### 🤖 AI Summarizer Feature
 <div align="center">
-  <img src="screenshots/ai_summarizer.png" width="250"/>
-  <img src="screenshots/ai_summarizer_ui.png" width="250"/>
+  <img src="screenshots/ai_summarizer.jpg" width="250"/>
+  <img src="screenshots/ai_summarizer_ui.jpg" width="250"/>
 </div>
 
 ---
 
 ### 📋 All Tasks & Add Task
 <div align="center">
-  <img src="screenshots/all_tasks.png" width="250"/>
-  <img src="screenshots/add_task.png" width="250"/>
+  <img src="screenshots/all_tasks.jpg" width="250"/>
+  <img src="screenshots/add_task.jpg" width="250"/>
 </div>
 
 ---
 
 ### 📄 Task Details & User Profile
 <div align="center">
-  <img src="screenshots/task_details.png" width="250"/>
-  <img src="screenshots/user_profile.png" width="250"/>
+  <img src="screenshots/task_details.jpg" width="250"/>
+  <img src="screenshots/user_profile.jpg" width="250"/>
 </div>
 
 
