@@ -2,20 +2,6 @@
 
 A modern, feature-rich Todo application built with Flutter, showcasing best practices in mobile app development.
 
-[![Deploy to Github Pages](https://github.com/sagarshende23/riverpod-todo-app/actions/workflows/web.yml/badge.svg)](https://github.com/sagarshende23/riverpod-todo-app/actions/workflows/web.yml)
-[![Android Release](https://github.com/sagarshende23/riverpod-todo-app/actions/workflows/android_build.yml/badge.svg)](https://github.com/sagarshende23/riverpod-todo-app/releases)
-
-<div align="center">
-
-### 🌐 Live Demo
-
-<a href="https://sagarshende23.github.io/riverpod-todo-app/">
-  <img src="https://img.shields.io/badge/CLICK_TO_VIEW_LIVE_DEMO-37a779?style=for-the-badge&logoColor=white" alt="Live Demo" />
-</a>
-
-</div>
-
-## 📱 Screenshots
 
 ## 📸 Screenshots
 
