@@ -187,11 +187,6 @@ final apiKey = 'your-secret-api-key';```
 
 flutter run
 ```
-## Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
 
 
 ## License
