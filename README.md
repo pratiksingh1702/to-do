@@ -58,200 +58,143 @@ A modern, feature-rich Todo application built with Flutter, showcasing best prac
 </div>
 
 
-## 📥 Try the App
+# Project Title
+📋 About the App
 
-<div align="center">
+my To_DO 😊 is a beautifully designed To-Do Task Management App built with Flutter and Riverpod for clean state management.
+It features a modern, minimal, and delightful UI inspired by neumorphism principles.
 
-<a href="https://sagarshende23.github.io/riverpod-todo-app/">
-  <img src="https://img.shields.io/badge/Web_Demo-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Web Demo" />
-</a>
+This app isn't just about managing tasks — it also demonstrates integration with external APIs like Groq LLM API for potential AI-powered features (e.g., task summaries, smart suggestions).
 
-<a href="https://github.com/sagarshende23/riverpod-todo-app/releases/latest/download/app-arm64-v8a-release.apk">
-  <img src="https://img.shields.io/badge/Android_arm64-34A853?style=for-the-badge&logo=android&logoColor=white" alt="Android arm64" />
-</a>
+🚀 Core Features
 
-<a href="https://github.com/sagarshende23/riverpod-todo-app/releases/latest/download/app-armeabi-v7a-release.apk">
-  <img src="https://img.shields.io/badge/Android_arm32-34A853?style=for-the-badge&logo=android&logoColor=white" alt="Android arm32" />
-</a>
+📅 Manage tasks with importance, deadlines, and tags
 
-<a href="https://github.com/sagarshende23/riverpod-todo-app/releases/latest/download/app-x86_64-release.apk">
-  <img src="https://img.shields.io/badge/Android_x64-34A853?style=for-the-badge&logo=android&logoColor=white" alt="Android x64" />
-</a>
+🌓 Light/Dark theme toggle
 
-</div>
+🔍 Smart Search across tasks and users
 
-## ✨ Features
+🧑‍💻 Fetch user profiles from API (JSONPlaceholder)
 
-- 📱 Clean, modern UI with Material Design 3
-- 🎨 Dynamic theme support (Light/Dark mode)
-- 💾 Local persistence using Hive
-- 📊 Task grouping and organization
-- ↩️ Undo/Redo support for actions
-- ⚡ Fast and responsive animations
-- 🔄 State management with Riverpod
+✅ Dynamic task status updates (Pending, Completed, Missed)
 
-## 🛠️ Built With
+💡 Beautiful Neumorphic UI with custom search bar
 
-<div align="center">
+🪄 Integrated Groq API (foundation for future AI capabilities)
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Material Design](https://img.shields.io/badge/Material_Design-757575?style=for-the-badge&logo=material-design&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github-pages&logoColor=white)
+🔐 Firebase Authentication (Login, Register)
 
-</div>
+| **Package**                | **Purpose**                        | **Pub.dev** Link                                                                  |
+| -------------------------- | ---------------------------------- | --------------------------------------------------------------------------------- |
+| flutter\_riverpod          | State Management                   | [flutter\_riverpod 🔗](https://pub.dev/packages/flutter_riverpod)                 |
+| flutter\_inner\_shadow     | Inner Shadow Effects (Neumorphism) | [flutter\_inner\_shadow 🔗](https://pub.dev/packages/flutter_inner_shadow)        |
+| hive                       | Local NoSQL Database               | [hive 🔗](https://pub.dev/packages/hive)                                          |
+| hive\_flutter              | Hive Flutter Integration           | [hive\_flutter 🔗](https://pub.dev/packages/hive_flutter)                         |
+| path\_provider             | Device Path Access                 | [path\_provider 🔗](https://pub.dev/packages/path_provider)                       |
+| sliding\_clipped\_nav\_bar | Modern Bottom Navigation Bar       | [sliding\_clipped\_nav\_bar 🔗](https://pub.dev/packages/sliding_clipped_nav_bar) |
+| google\_fonts              | Google Fonts Integration           | [google\_fonts 🔗](https://pub.dev/packages/google_fonts)                         |
+| flutter\_animate           | Animations                         | [flutter\_animate 🔗](https://pub.dev/packages/flutter_animate)                   |
+| table\_calendar            | Calendar UI                        | [table\_calendar 🔗](https://pub.dev/packages/table_calendar)                     |
+| animated\_text\_kit        | Animated Text Effects              | [animated\_text\_kit 🔗](https://pub.dev/packages/animated_text_kit)              |
+| characters                 | String Manipulation Utils          | [characters 🔗](https://pub.dev/packages/characters)                              |
+| flutter\_svg               | SVG Image Support                  | [flutter\_svg 🔗](https://pub.dev/packages/flutter_svg)                           |
+| firebase\_core             | Firebase Core SDK                  | [firebase\_core 🔗](https://pub.dev/packages/firebase_core)                       |
+| firebase\_auth             | Firebase Authentication SDK        | [firebase\_auth 🔗](https://pub.dev/packages/firebase_auth)                       |
+| animations                 | Pre-built Animation Widgets        | [animations 🔗](https://pub.dev/packages/animations)                              |
+| flutter\_neumorphic\_plus  | Neumorphic UI Components           | [flutter\_neumorphic\_plus 🔗](https://pub.dev/packages/flutter_neumorphic_plus)  |
+| build\_runner              | Code Generator                     | [build\_runner 🔗](https://pub.dev/packages/build_runner)                         |
+| hive\_generator            | Hive Model Generator               | [hive\_generator 🔗](https://pub.dev/packages/hive_generator)                     |
 
-## 📱 Downloads
 
-Get the latest version of the app:
+| **Package**     | **Version**  |
+| --------------- | ------------ |
+| flutter\_test   | sdk: flutter |
+| hive\_generator | ^2.0.1       |
+| build\_runner   | ^2.4.7       |
 
-| Platform | Download |
-|----------|----------|
-| Android (arm64-v8a) | [Download](https://github.com/sagarshende23/riverpod-todo-app/releases/latest/download/app-arm64-v8a-release.apk) |
-| Android (armeabi-v7a) | [Download](https://github.com/sagarshende23/riverpod-todo-app/releases/latest/download/app-armeabi-v7a-release.apk) |
-| Android (x86_64) | [Download](https://github.com/sagarshende23/riverpod-todo-app/releases/latest/download/app-x86_64-release.apk) |
-| Web | [Open Web App](https://sagarshende23.github.io/riverpod-todo-app) |
+## Screenshots
 
-Choose the appropriate APK for your device:
-- `arm64-v8a`: Most modern Android devices (64-bit)
-- `armeabi-v7a`: Older Android devices (32-bit)
-- `x86_64`: Android emulators and Chrome OS
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-## 🔧 Installation & Setup
 
-1. Clone the repository
+## Demo
+
+Insert gif or link to demo
+
+
+## 🛠️ Installation Guide
+
+Install my-project with npm
+
 ```bash
-git clone https://github.com/sagarshende23/riverpod-todo-app.git
+ lib/
+├── src/
+│   ├── common/          # Reusable widgets (BottomNav, GroqUI)
+│   ├── features/
+│   │   ├── auth/        # Login, Signup, Firebase Auth integration
+│   │   ├── todo/        # Todo model, provider, screens
+│   │   ├── user/        # User model, API provider, UserCard UI
+│   │   ├── search/      # Search bar, providers
+│   └── main.dart        # App Entry Point
+├── pubspec.yaml         # Dependencies
+└── assets/              # Images, SVGs, Icons
+
 ```
 
-2. Get Flutter packages
-```bash
+``` 
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+```
+```
 flutter pub get
 ```
+Setup Firebase
+Important: You must add your own google-services.json (Android) and GoogleService-Info.plist (iOS).
 
-3. Run the app
-```bash
+Go to Firebase Console
+
+Create a project
+
+Enable Authentication (Email/Password)
+
+Download your config files and place them correctly:
+
+swift
+Copy
+Edit
+
+```
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+```
+🔑 Groq API Integration
+(Optional for AI task features)
+Sign up for Groq API
+
+Store your GROQ_API_KEY safely (Never commit it publicly)
+
+Use it in your service file:
+
+```dart
+Copy
+Edit
+// Example
+final apiKey = 'your-secret-api-key';```
+
+💡 Running the App
+
 flutter run
 ```
+## Tech Stack
 
-## 🌐 Web Deployment
+**Client:** React, Redux, TailwindCSS
 
-This app is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow:
+**Server:** Node, Express
 
-1. Triggers on push to main branch
-2. Sets up Flutter environment
-3. Enables web support
-4. Builds the web app
-5. Deploys to GitHub Pages
-
-To deploy to your own GitHub Pages:
-
-1. Fork this repository
-2. Go to repository Settings > Pages
-3. Set Source to "GitHub Actions"
-4. Push changes to main branch
-5. Check Actions tab for deployment status
-6. Access your app at `https://sagarshende23.github.io/riverpod-todo-app`
-
-## Architecture
-
-The app follows a feature-first architecture with clean separation of concerns:
-
-```
-lib/
-├── src/
-│   ├── common/
-│   │   ├── constants/
-│   │   ├── providers/
-│   │   └── theme/
-│   └── features/
-│       └── todo/
-│           ├── domain/
-│           │   └── models/
-│           ├── presentation/
-│           │   ├── providers/
-│           │   ├── screens/
-│           │   └── widgets/
-└── main.dart
-```
-
-## Technologies Used
-
-- Flutter
-- Riverpod for state management
-- Hive for local storage
-- Material Design 3
-
-## Getting Started
-
-1. **Prerequisites**
-   - Flutter (latest version)
-   - Dart SDK
-   - Android Studio / VS Code
-
-2. **Installation**
-   ```bash
-   # Clone the repository
-   git clone https://github.com/sagarshende23/riverpod-todo-app.git
-
-   # Navigate to project directory
-   cd riverpod-todo-app
-
-   # Get dependencies
-   flutter pub get
-
-   # Run the app
-   flutter run
-   ```
-
-3. **Build**
-   ```bash
-   # Generate Hive adapters
-   flutter pub run build_runner build --delete-conflicting-outputs
-   ```
-
-## Dependencies
-
-```yaml
-flutter_riverpod: ^2.4.9
-hive: ^2.2.3
-hive_flutter: ^1.1.0
-```
-
-## Features in Detail
-
-### Task Management
-- Create, update, and delete tasks
-- Mark tasks as complete/incomplete
-- Group tasks by category
-- Undo deleted tasks
-
-### UI/UX
-- Smooth animations
-- Intuitive gestures
-- Responsive design
-- Error handling with user feedback
-
-### Data Persistence
-- Local storage using Hive
-- Automatic state persistence
-- Fast data access
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Acknowledgments
-
-- Flutter team for the amazing framework
-- Riverpod for state management
-- Hive for local storage solution
