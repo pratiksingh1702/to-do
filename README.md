@@ -110,8 +110,6 @@ This app isn't just about managing tasks — it also demonstrates integration wi
 
 ## 🛠️ Installation Guide
 
-Install my-project with npm
-
 ```bash
  lib/
 ├── src/
